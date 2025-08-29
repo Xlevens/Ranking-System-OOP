@@ -11,7 +11,7 @@ class AppController:
     
     def run(self):
         Student=input("Enter anything to start:")
-        if Student=="k":
+        if Student=="JqR6INT":
             teacher = Teacher("Dr. Humera Tariq", "CS-352")
             students = StudentList()
             
