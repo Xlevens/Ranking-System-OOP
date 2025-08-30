@@ -34,10 +34,14 @@ class AppController:
             app.position()
             while (True):
                 
-                seat = input("\nEnter Seat No to search: ")
-                if(seat=="exit" or seat=="Exit" or seat=="EXIT"):
-                    break
+                num = input("\nEnter Seat No to search: ")
+                default = "B24110006"
+                seat = default+num
+
                 app.search_student(seat)
+                command = input("Would you like to continue?\n")
+                if(command=="exit" or seat=="Exit" or seat=="EXIT"):
+                    break
         
     def position(self):
         print("=" * 92)
