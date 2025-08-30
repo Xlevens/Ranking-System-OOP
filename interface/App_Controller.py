@@ -34,7 +34,7 @@ class AppController:
             app.position()
             while (True):
                 
-                num = input("\nEnter Seat No to search: ")
+                num = input("\nEnter the last 3 digits of Seat No to search: ")
                 default = "B24110006"
                 seat = default+num
 
