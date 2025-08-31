@@ -1,7 +1,9 @@
-# 🎓 Student Results Ranking System
+<h1>🎓 Student Results Ranking System</h1>
+
 A Python-based system to manage, rank, and display student results. 
 
-This project was collaboratively developed by **Syeda Kaneez Fatima, Behroz, Asad, Rizwan,  Zain, and Fatima Shahzad** as part of a team effort.  
+This project was collaboratively developed by **Syeda Kaneez Fatima, Behroz, Asad, Rizwan,  Zain, and Fatima Shahzad** as part of a team effort. 
+
 
 <p align="center">
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGE2MGIxZHM2cWloZ3Jka2F2N3h2czF4YzZ5NWlvZWMyeGoxNXFtaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orif1xSQnwOkYIRjO/giphy.gif" width="400" />
@@ -12,7 +14,7 @@ This project was collaboratively developed by **Syeda Kaneez Fatima, Behroz, Asa
 ## ✨ Features
 - 📊 **Result Management** – Import results from CSV files.  
 - 🏆 **Dense Ranking System** – Assigns ranks without skipping (e.g., 1,2,2,3,4,4).  
-- 🔎 **Search Functionality** – Quickly find students by enrollment number or name.  
+- 🔎 **Search Functionality** – Quickly find students by seat number.  
 - 📋 **Tabulated Display** – Clean and readable output using the `tabulate` library.  
 - 🎨 **Console Introduction** – Centered title and credits, presenting a polished experience.  
 
@@ -29,9 +31,9 @@ This project was collaboratively developed by **Syeda Kaneez Fatima, Behroz, Asa
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Xlevens/Ranking-System_OOP.git
+git clone https://github.com/Xlevens/Ranking-System-OOP.git
 
-cd Ranking-System_OOP
+cd Ranking-System-OOP
 ```
 
 ### 2. Install Dependencies
